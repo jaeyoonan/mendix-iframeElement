@@ -2,6 +2,14 @@
 
 A Mendix Iframe Element
 
+![setting_1](/doc/setting_1.png)
+
+![setting_2](/doc/setting_2.png)
+
+![setting_3](/doc/setting_3.png)
+
+![ui](/doc/ui.png)
+
 ## Features
 
 1. Embed another document within the current HTML document
