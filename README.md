@@ -8,7 +8,7 @@ A Mendix Iframe Element
 
 ![setting_3](/docs/setting_3.png)
 
-![ui](/doc/ui.png)
+![ui](/docs/ui.png)
 
 ## Features
 
