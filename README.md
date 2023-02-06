@@ -2,11 +2,11 @@
 
 A Mendix Iframe Element
 
-![setting_1](/doc/setting_1.png)
+![setting_1](/docs/setting_1.png)
 
-![setting_2](/doc/setting_2.png)
+![setting_2](/docs/setting_2.png)
 
-![setting_3](/doc/setting_3.png)
+![setting_3](/docs/setting_3.png)
 
 ![ui](/doc/ui.png)
 
