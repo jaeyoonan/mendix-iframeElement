@@ -111,9 +111,11 @@ export function getProperties(
     }
     */
     const { source } = _values;
-    source === "fileDocument"
-        ? hidePropertiesIn(defaultProperties, _values, ["url", "src"])
-        : hidePropertyIn(defaultProperties, _values, "file");
+    if (source === "fileDocument") {
+        hidePropertiesIn(defaultProperties, _values, ["url", "src"]);
+    } else {
+        hidePropertyIn(defaultProperties, _values, "file");
+    }
     return defaultProperties;
 }
 

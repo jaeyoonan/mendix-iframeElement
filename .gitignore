@@ -1,6 +1,7 @@
 ..Mendix/MendixAntd-main/
 .DS_Store
 .idea
+dist
 .vscode
 node_modules
 .env
