@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget
+    id="mendix.iframeelement.IframeElement"
+    pluginWidget="true"
+    needsEntityContext="true"
+    offlineCapable="true"
+    supportedPlatform="Web"
+    xmlns="http://www.mendix.com/widget/1.0/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd"
+>
+    <name>Iframe Element</name>
+    <description>My widget description</description>
+    <icon />
+    <properties>
+        <propertyGroup caption="General">
+            <property key="source" type="enumeration" defaultValue="fileDocument">
+                <caption>Source type</caption>
+                <description />
+                <enumerationValues>
+                    <enumerationValue key="fileDocument">File document</enumerationValue>
+                    <enumerationValue key="static">Static</enumerationValue>
+                </enumerationValues>
+            </property>
+            <property key="file" type="file" required="true">
+                <caption>File document</caption>
+                <description>File to load within an Iframe</description>
+            </property>
+            <property key="url" type="string" required="true">
+                <caption>url</caption>
+                <description>The iframe url</description>
+            </property>
+            <property key="src" type="string" required="false">
+                <caption>src</caption>
+                <description>If set, overrides url</description>
+            </property>
+        </propertyGroup>
+        <propertyGroup caption="UI">
+            <property key="width" type="string">
+                <caption>Width</caption>
+                <description>1px > any number above 0, or 1% to 100%</description>
+            </property>
+            <property key="height" type="string">
+                <caption>Height</caption>
+                <description>1px > any number above 0, or 1% to 100%</description>
+            </property>
+        </propertyGroup>
+    </properties>
+</widget>
